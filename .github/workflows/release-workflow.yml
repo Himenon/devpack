@@ -1,0 +1,23 @@
+name: Release Workflow
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  release-github-npm-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://npm.pkg.github.com
+          scope: '@Himenon'
+      - run: |
+          yarn install --frozen-lockfile
+          yarn lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
