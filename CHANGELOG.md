@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.7"></a>
+## [0.1.7](https://github.com/Himenon/devpack/compare/@himenon/devpack@0.1.5...@himenon/devpack@0.1.7) (2020-09-15)
+
+
+### Chores
+
+* update package.json ([64b51ed](https://github.com/Himenon/devpack/commit/64b51ed))
+
+
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/Himenon/devpack/compare/@himenon/devpack@0.1.4...@himenon/devpack@0.1.5) (2020-09-15)
 
