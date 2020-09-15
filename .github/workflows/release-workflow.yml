@@ -17,7 +17,7 @@ jobs:
           registry-url: https://npm.pkg.github.com
           scope: '@Himenon'
       - run: yarn install --frozen-lockfile
-      - run: yarn lerna publish from-package --yes
+      - run: yarn release:github:registry
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -30,6 +30,6 @@ jobs:
         node-version: "12.x"
         registry-url: 'https://registry.npmjs.org'
     - run: yarn install --frozen-lockfile
-    - run: yarn lerna publish from-package --yes
+    - run: yarn release:npm:registry
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

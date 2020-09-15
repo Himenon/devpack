@@ -1,6 +1,6 @@
 {
   "name": "@himenon/devpack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "web development packages",
   "license": "MIT",
   "keywords": [],
@@ -8,9 +8,13 @@
   "bugs": {
     "url": "https://github.com/Himenon/devpack/issues"
   },
+  "scripts": {
+    "release:github:registry": "lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}",
+    "release:npm:registry": "lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}"
+  },
   "publishConfig": {
     "access": "public",
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "@babel/core": "7.11.6",
