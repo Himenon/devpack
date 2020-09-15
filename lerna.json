@@ -4,7 +4,7 @@
     "version": {
       "conventionalCommits": true,
       "changelogPreset": "angular-all",
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish"
     }
   },
   "publish": {
