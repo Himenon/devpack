@@ -10,7 +10,7 @@
   },
   "scripts": {
     "release:github:registry": "lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}",
-    "release:npm:registry": "lerna publish from-package --yes --registry https://registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}"
+    "release:npm:registry": "lerna publish from-package --yes"
   },
   "publishConfig": {
     "access": "public"
