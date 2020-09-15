@@ -13,8 +13,7 @@
     "release:npm:registry": "lerna publish from-package --yes --registry https://registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   },
   "dependencies": {
     "@babel/core": "7.11.6",
