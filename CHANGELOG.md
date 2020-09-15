@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.9"></a>
+## [0.1.9](https://github.com/Himenon/devpack/compare/@himenon/devpack@0.1.8...@himenon/devpack@0.1.9) (2020-09-15)
+
+
+### Bug Fixes
+
+* release comment ([41ff20d](https://github.com/Himenon/devpack/commit/41ff20d))
+
+
+
+
+
 <a name="0.1.8"></a>
 ## [0.1.8](https://github.com/Himenon/devpack/compare/@himenon/devpack@0.1.7...@himenon/devpack@0.1.8) (2020-09-15)
 
