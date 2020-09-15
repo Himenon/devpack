@@ -5,7 +5,7 @@ on:
     types: [created]
 
 jobs:
-  release-github-npm-registry:
+  release-github-registry:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
