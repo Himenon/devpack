@@ -3,8 +3,7 @@
   "command": {
     "version": {
       "conventionalCommits": true,
-      "changelogPreset": "angular-all",
-      "message": "chore(release): publish %s"
+      "changelogPreset": "angular-all"
     }
   },
   "publish": {
