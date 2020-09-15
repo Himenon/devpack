@@ -9,7 +9,6 @@
     "url": "https://github.com/Himenon/devpack/issues"
   },
   "scripts": {
-    "lerna:version": "lerna version -m \"chore(release): publish %s\"",
     "release:github:registry": "lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}",
     "release:npm:registry": "lerna publish from-package --yes"
   },
