@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.8"></a>
+## [0.1.8](https://github.com/Himenon/devpack/compare/@himenon/devpack@0.1.7...@himenon/devpack@0.1.8) (2020-09-15)
+
+
+### Bug Fixes
+
+* lerna version ([b90ce2d](https://github.com/Himenon/devpack/commit/b90ce2d))
+
+
+
+
+
 <a name="0.1.7"></a>
 ## [0.1.7](https://github.com/Himenon/devpack/compare/@himenon/devpack@0.1.5...@himenon/devpack@0.1.7) (2020-09-15)
 
